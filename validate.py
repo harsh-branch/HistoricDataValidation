@@ -7,7 +7,6 @@ while True:
         app_id = int(input("Enter the App ID for which you are validating this data: "))
     except ValueError: 
         print("Please input an integer value")
-        continue
     else:
         break
 
